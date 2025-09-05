@@ -4,9 +4,9 @@
   "description": "Modern web-based slot machine game with Svelte and Pixi.js",
   "type": "module",
   "scripts": {
-    "dev": "npx vite",
-    "build": "npx vite build",
-    "preview": "npx vite preview",
+    "dev": "vite",
+    "build": "npm exec vite build",
+    "preview": "vite preview",
     "check": "svelte-check --tsconfig ./jsconfig.json"
   },
   "devDependencies": {
