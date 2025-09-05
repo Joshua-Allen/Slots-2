@@ -1,7 +1,7 @@
 <script>
   import IntroPage from './components/IntroPage.svelte';
   import SlotMachine from './components/SlotMachine.svelte';
-  import { gameState } from './stores/gameStore.js';
+  import { gameState, gameActions } from './stores/gameStore.js';
 
   let currentScreen = 'intro'; // 'intro' or 'game'
 
